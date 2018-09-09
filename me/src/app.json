@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/wild/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SNK",
+    "navigationStyle": "default",
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "dark",
+    "backgroundColorTop": "#ccc",
+    "backgroundColorBottom": "#ccc",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "red",
+    "backgroundColor": "#000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/list/main",
+        "text": "列表",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/logs/main",
+        "text": "日志",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/counter/main",
+        "text": "计数器",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ],
+    "position": "top"
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": true,
+  "requiredBackgroundModes": [
+    "audio"
+  ]
+}
